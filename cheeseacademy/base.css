@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*----------------------------------------------
+ * ページ全体
+ *-----------------------------------------------*/
+
+/*----------------------------------------------
+ *　ヘッダー
+
+ *-----------------------------------------------*/
+ img{
+    width: auto;
+    height:auto;
+  
+}
+
+ /*----------------------------------------------
+ *　navigation
+
+ *-----------------------------------------------*/
+ ul#menu {
+	width:700px; height:80px; 	/*メインメニュー部分の幅と高さ*/
+	margin:0px 0px; 		/*上下マージン0px、左右マージン20px*/
+}
+#menu li {
+	list-style-type:none;		/*リストマーカー無しにする*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+}
+.nav-inner{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.wrapper{
+ 
+    margin: auto;
+    display:inline;	
+}
+ /*----------------------------------------------
+ *　About
+
+ *-----------------------------------------------*/
+.h1{
+    display: flex;
+}
+section-image{
+    width: 100px; height: 100px;
+  
+ }
+ h1{
+    size: 24px;
+    text-align: center;
+    color: #ffd61a;
+ }
+ .section-text{
+    text-align: center
+ }
+ .section-name{
+    text-align: center;
+ }
+ /*----------------------------------------------
+ *　Course
+
+ *-----------------------------------------------*/
+h2{
+    size: 24px;
+    text-align: center;
+  
+ }
+ .section-text{
+    text-align: center
+ }
+ .section-name{
+    text-align: center;
+ }
+ /*----------------------------------------------
+ *　NEWS
+
+ *-----------------------------------------------*/
+ h３{
+
+    text-align: center;
+}
+.section-text{
+        text-align: center
+}
+.section-name{
+        text-align: center;
+}
+
+.wrapper{
+        width: 1140px;
+        margin: auto;
+}
+ß.works-list{
+        display: flex;
+}
+
+ /*----------------------------------------------
+ *　ACCESS
+
+ *-----------------------------------------------*/
+h4{
+    background-color: #fafafa;
+    text-align: center;
+}
+.section-text{
+        text-align: center
+}
+.section-name{
+        text-align: center;
+}
+#access main ifram{
+    width: 50%
+}
+ /*----------------------------------------------
+ *　フッター
+
+ *-----------------------------------------------*/
+ footer{
+        text-align: right;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ }
+ small{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #707070;
+    text-align: center
+}
+ /*----------------------------------------------
+ *
+ *-----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
